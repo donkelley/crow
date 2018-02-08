@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "CrowDemo",
+  "short_name": "CrowDemo",
+  "version": "com.crow.crowdemo",
+  "description": "Groundbreaking technology demo by Crow Dev Team",
+  "author": "Crow Mobile Team (Joe Don)",
+  "icons": [],
+  "start_url": "index.html"
+}

@@ -4,10 +4,16 @@
   "displayName": "CrowDemo",
   "cordova": {
     "platforms": [
-      "android"
-    ]
+      "android",
+      "browser"
+    ],
+    "plugins": {
+      "cordova-plugin-speechrecognition": {}
+    }
   },
   "dependencies": {
-    "cordova-android": "~6.3.0"
+    "cordova-android": "^6.2.1",
+    "cordova-browser": "^5.0.3",
+    "cordova-plugin-speechrecognition": "^1.2.0"
   }
 }

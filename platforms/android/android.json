@@ -4,8 +4,46 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"SpeechRecognition\"><param name=\"android-package\" value=\"com.pbakondy.SpeechRecognition\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
-    "installed_plugins": {},
-    "dependent_plugins": {}
+    "installed_plugins": {
+        "cordova-plugin-speechrecognition": {
+            "PACKAGE_NAME": "com.crow.crowdemo"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "cordova-plugin-speechrecognition.SpeechRecognition",
+            "file": "plugins/cordova-plugin-speechrecognition/www/speechRecognition.js",
+            "pluginId": "cordova-plugin-speechrecognition",
+            "merges": [
+                "window.plugins.speechRecognition"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-speechrecognition": "1.1.2"
+    }
 }
