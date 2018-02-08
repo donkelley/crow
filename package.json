@@ -4,16 +4,17 @@
   "displayName": "CrowDemo",
   "cordova": {
     "platforms": [
-      "android",
-      "browser"
+      "browser",
+      "android"
     ],
     "plugins": {
-      "cordova-plugin-speechrecognition": {}
+      "phonegap-plugin-speech-recognition": {}
     }
   },
   "dependencies": {
-    "cordova-android": "^6.2.1",
+    "cordova-android": "^6.3.0",
     "cordova-browser": "^5.0.3",
-    "cordova-plugin-speechrecognition": "^1.2.0"
+    "cordova-plugin-compat": "^1.2.0",
+    "phonegap-plugin-speech-recognition": "git+https://github.com/macdonst/SpeechRecognitionPlugin.git"
   }
 }

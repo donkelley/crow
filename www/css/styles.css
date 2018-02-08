@@ -188,3 +188,26 @@ h2 {
     width:100px;
     height:100px;
 }
+
+.speech {
+  border: 1px solid blue;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.speech h2 {
+  margin: 13.5px 0;
+}
+
+.speech a {
+  clear:both;
+  border: 2px solid black;
+  background: #EEE;
+  padding: 5px;
+}
+
+.speech .speechOutput {
+  border: 2px solid grey;
+  min-width: 200px;
+  min-height: 20px;
+}

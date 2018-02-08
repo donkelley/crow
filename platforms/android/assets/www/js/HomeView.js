@@ -1,11 +1,13 @@
-var HomeView = function(store) {  
+var HomeView = function(store) {
 
   this.render = function() {
       this.el.html(HomeView.template());
+          //app.showAlert('HomeView rendered', 'Info');
       return this;
   };
 
   this.findByName = function() {
+      console.log("findByName");
       store.findByName($('.search-key').val(), function(employees) {
           $('.employee-list').html(HomeView.liTemplate(employees));
       });

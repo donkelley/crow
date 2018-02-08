@@ -7,7 +7,7 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-speechrecognition": {
+    "phonegap-plugin-speech-recognition": {
       "PACKAGE_NAME": "com.crow.crowdemo"
     }
   },
