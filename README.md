@@ -1,4 +1,4 @@
-# A Blank PhoneGap App
+# Experimental PhoneGap app for R&D by Don Joe @ Crow
 
 ## Usage
 
@@ -11,4 +11,3 @@
 In your browser, open the file:
 
     /www/index.html
-
