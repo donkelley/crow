@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.crow.crowdemo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>CrowDemo</name>
+    <description>
+        Groundbreaking technology demo by Crow Dev Team
+    </description>
+    <author email="dkelley@crowcomputing.com" href="http://www.lotteries.com">
+        Crow Mobile Team (Joe Don)
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>

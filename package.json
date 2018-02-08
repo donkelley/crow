@@ -1,0 +1,13 @@
+{
+  "name": "com.crow.crowdemo",
+  "version": "1.0.0",
+  "displayName": "CrowDemo",
+  "cordova": {
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {
+    "cordova-android": "~6.3.0"
+  }
+}
