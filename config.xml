@@ -2,11 +2,12 @@
 <widget id="com.crow.crowdemo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>CrowDemo</name>
     <description>
-        A blank PhoneGap app.
+        Groundbreaking technology demo by Crow Dev Team
     </description>
     <author email="dkelley@crowcomputing.com" href="http://www.lotteries.com">
-        PhoneGap Team
+        Crow Mobile Team (Joe Don)
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <engine name="android" spec="~6.3.0" />
 </widget>
