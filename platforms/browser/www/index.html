@@ -20,11 +20,17 @@
               }
           }
       }
+
+      function startListening() {
+        spokentext.value += "\r\n";
+        recognition.start();
+      }
+
     </script>
     <textarea id="spokentext" style="width: 300px; height: 100px; font-size: 20px;"></textarea>
     <!-- <input type="search" id="q" name="q" size=60> -->
     <br/>
-    <input type="button" value="Click to Speak" onclick="recognition.start()"/>
+    <input type="button" value="Click to Speak" onclick="startListening()"/>
 
     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
     <script src="http://192.168.18.103:8080/target/target-script-min.js#anonymous"></script>
